@@ -1,0 +1,310 @@
+body {
+    margin-top: 0;
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+* {
+    font-family: "PT Sans", sans-serif;
+    list-style: none;
+}
+
+.header-contaier {
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-icon {
+    margin-left: 76px;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+}
+
+.a-header-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header-item:first-child {
+    margin-left: 46px;
+}
+
+.header-item {
+    margin-left: 32px;
+}
+
+.icon-like {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.like {
+    margin-right: 20xp;
+}
+
+.there {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #756157;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 50px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+
+.hotels {
+    background-image:url("hotel-bg.jpg");
+    width: 1200px;
+    height: 412px;
+    color: #FFFFFF;
+}
+
+.hotel-content {
+    width: 1060px;
+    height: 307px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.hostel-sedona {
+    font-style: normal;
+    margin: 0;
+    font-size: 60px;
+    line-height: 78px;
+    
+}
+
+
+.icone-home {
+    margin-top: 8px;
+}
+
+.infr {
+    font-size: 20px;
+    margin: 0;
+}
+
+.criteria {
+    padding: 0;
+    margin-bottom: 0;
+    width: 150.43px;
+}
+
+.radio-btn-square {
+    height: 20px;
+    width: 20px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: #FFFFFF;
+    margin: 0;
+}
+
+.min-criteria1 {
+    padding-left: 0;
+}
+
+.radio-name:first-child {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.radio-name {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.name {
+    margin-left: 16px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;        
+}
+
+.filter {
+    display: flex;
+    margin-top: 40px;
+}
+
+.criteria1 {
+    margin-left: 70px;
+}
+
+.min-criteria1 {
+    padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.radio-btn-square2 {
+    height: 20px;
+    width: 20px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    border: #FFFFFF;
+    margin: 0;
+}
+
+.criteria2 {
+    margin-left: 140px;
+}
+
+.price {
+    margin-top: 32px;
+    width: 291px;
+}
+
+.min-price {
+    width: 143px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 4px 0px 0px 4px;
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+}
+
+.max-price {
+    width: 143px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 0px 4px 4px 0px;
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+
+}
+
+.wq {
+    margin: 0;
+    width: 191px;
+    margin-left: 70px;
+    display: block;
+    
+    margin-top: 56px;
+}
+
+.apply {
+    margin: 0;
+    padding: 8px 50px;
+    background: #82B3D3;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.link1 {
+   text-decoration: none;
+   
+}
+
+.link2 {
+    text-decoration: none;
+    
+ }
+.off {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.catalog {
+    height: 1235px;
+}
+
+.containt-cotalog {
+    width: 1060px;
+    margin: 50 70 60 70;
+}
+
+.top-cont {
+    display: flex;
+    min-width: 1057px;
+    margin: 41px 72px 53px 71px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-cont {
+    margin-right: 177px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.select-cont {
+    position: relative;
+    height: 48px;
+    min-width: 290px;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    padding-left: 19px;
+    padding-right: 45px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin-right: 67px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: inherit;
+    color: #333333;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 21px center;
+    background-color: #ffffff;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.button-mode {
+    border-radius: 4px;
+    border: 2px solid #000000;
+    outline: none;
+    position: relative;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.img-svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    fill: #000000;
+    margin: auto;
+}
